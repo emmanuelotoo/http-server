@@ -13,8 +13,7 @@ public class HttpServerApp {
             try (var os = connection.getOutputStream()) {
                 var json = """
                         {
-                            "id": 1
-                        
+                            hi im emmanuel
                         }
                         
                         """;
@@ -30,6 +29,5 @@ public class HttpServerApp {
                 os.write(response.getBytes(StandardCharsets.UTF_8));
             }
         }
-
     }
 }
