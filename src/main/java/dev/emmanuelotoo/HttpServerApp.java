@@ -13,7 +13,7 @@ public class HttpServerApp {
             try (var os = connection.getOutputStream()) {
                 var json = """
                         {
-                            hi im emmanuel
+                            "name": "Emmanuel"
                         }
                         
                         """;

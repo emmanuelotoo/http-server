@@ -40,6 +40,6 @@ Navigate to `http://localhost:8080` in your web browser.
 **Expected Response:**
 ```json
 {
-    hi im emmanuel
+  "name": "Emmanuel"
 }
 ```
